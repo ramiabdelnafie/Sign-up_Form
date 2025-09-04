@@ -48,11 +48,17 @@ img {
 
 form {
     background-color: white;
+    padding-top: 5px;
     padding-left: 50px;
     padding-right: 25vw;
+    padding-bottom: 5px;
     height: 30vh;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 20px;
 }
 
 .formrow{
@@ -73,13 +79,18 @@ input {
     border-radius: 4px;
     border-color: #E5E7EB;
     border-style: solid;
+    height: 20px;
 }
 
+input:invalid {
+    border-color: red;
+}
 
-
-
-
-
+input:focus {
+    border-color: blue;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    outline: none;
+}
 
 button {
     margin-left: 50px;
